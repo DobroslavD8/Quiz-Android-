@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/topLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/questionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textSize="19sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#3b7049"
+        android:textColor="#cbd1db"
+        android:padding="15dp"
+        />
+    
+    <Button
+        android:id="@+id/FirstAnswerBtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="FirstAnswer"
+        android:layout_marginTop="60dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/SecondAnswerBtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="SecondAnswer"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/ThirdAnswerBtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="ThirdAnswer"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+    <Button
+        android:id="@+id/FourthAnswerBtn"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="FourthAnswer"
+        android:layout_marginTop="6dp"
+        android:onClick="checkAnswer"/>
+
+</LinearLayout>
